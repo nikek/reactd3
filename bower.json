@@ -1,10 +1,10 @@
 {
-  "name": "lingon-template-minimal",
+  "name": "reactd3",
   "version": "0.0.0",
-  "homepage": "https://github.com/javoire/lingon-template-minimal",
-  "authors": [
-    "Jonatan Dahl <dahl.jonatan@gmail.com>"
-  ],
-  "description": "A minimal template for a lingon project",
-  "license": "MIT"
+  "devDependencies": {
+    "react": "~0.12.2",
+    "d3": "~3.5.5",
+    "bootstrap": "~3.3.2",
+    "lodash": "~2.2.1"
+  }
 }
