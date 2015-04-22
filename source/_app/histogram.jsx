@@ -9,8 +9,8 @@ var Histogram = React.createClass({
     this.update_d3(this.props);
   },
 
-  componentWillRecieveProps: function(newProps) {
-    this.update_d3(this.props);
+  componentWillReceiveProps: function(newProps) {
+    this.update_d3(newProps);
   },
 
   update_d3: function(props) {
@@ -33,6 +33,7 @@ var Histogram = React.createClass({
   },
 
   makeBar: function(bar) {
+    console.log(bar.y, this.props.data.length);
     var percent = bar.y/this.props.data.length*100;
 
     var props = {
